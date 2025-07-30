@@ -1,0 +1,35 @@
+.card.contact {
+  width: 267px;
+  height: 92px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  h1 {
+    height: 37px;
+    margin-bottom: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+  p {
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 10px;
+
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.last-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  height: 289px;
+  gap: 20px;
+}

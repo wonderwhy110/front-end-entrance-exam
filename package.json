@@ -9,6 +9,24 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^5.2.0"
-  }
+    "vite": "^5.2.0",
+    "vite-plugin-html": "^3.2.2"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1"
+  },
+  "description": "Вашей задачей является создание веб-страницы с резюме, которое должно быть сверстано по данному шаблону. Страница должна иметь возможность изменять текст элементов и предоставлять кнопку \"Скачать\" для скачивания резюме в формате PDF. В качестве дополнительного задания, необходимо анимировать клики на элементы резюме с помощью CSS-анимаций и добавить эффект \"Material Wave\".",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonderwhy110/front-end-entrance-exam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonderwhy110/front-end-entrance-exam/issues"
+  },
+  "homepage": "https://github.com/wonderwhy110/front-end-entrance-exam#readme"
 }

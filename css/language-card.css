@@ -1,0 +1,50 @@
+.card.languages {
+  max-width: 267px;
+  min-width: 124px;
+  width: 267px;
+  height: 124px;
+
+  overflow: hidden;
+}
+.list-languages {
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  width: 243px;
+  margin-top: 20px;
+}
+.name-languages {
+  box-sizing: border-box;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  p {
+    font-weight: 500;
+    font-size: 10px;
+    max-width: 58px;
+
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+.level-language {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  gap: 10px;
+}
+
+.progress-bar {
+  flex: 0 1 auto;
+  width: 100%;
+  height: 11px;
+  background-color: var(--main-green);
+  border-radius: 3px;
+  &.hindi {
+    width: 70%;
+  }
+}
