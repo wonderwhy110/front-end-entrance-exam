@@ -5,7 +5,7 @@ import { createHtmlPlugin } from "file:///C:/Users/%D0%94%D0%B0%D1%88%D0%B0/VsCo
 var __vite_injected_original_dirname =
   "C:\\Users\\\u0414\u0430\u0448\u0430\\VsCodeProjects\\front-end-entrance-exam\\front-end-entrance-exam";
 var vite_config_default = defineConfig({
-  base: "/wonderwhy110/",
+  base: "/front-end-entrance-exam/",
   server: {
     port: 3e3,
     open: true,
