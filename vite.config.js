@@ -3,6 +3,7 @@ import { resolve } from "path";
 import { createHtmlPlugin } from "vite-plugin-html";
 
 export default defineConfig({
+  base: "/front-end-entrance-exam/",
   server: {
     port: 5500,
     open: true,
