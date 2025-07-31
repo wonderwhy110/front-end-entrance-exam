@@ -3,17 +3,18 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [master]
-
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
@@ -26,3 +27,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          force_orphan: true # Важно! Очищает историю ветки
+          keep_files: false # Удаляет старые файлы

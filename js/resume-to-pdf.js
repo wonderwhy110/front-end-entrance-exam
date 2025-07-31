@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         useCORS: true,
         allowTaint: true,
         logging: true,
-        windowHeight: element.scrollHeight + 100, 
+        windowHeight: element.scrollHeight + 100,
         onclone: function (clonedDoc) {
           clonedDoc.getElementById("app").style.paddingBottom = "20px";
         },
@@ -29,11 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const pageWidth = pdf.internal.pageSize.getWidth();
       const pageHeight = pdf.internal.pageSize.getHeight();
       const imgProps = pdf.getImageProperties(imgData);
-      const imgWidth = pageWidth - 10; 
+      const imgWidth = pageWidth - 10;
       const imgHeight = (imgProps.height * imgWidth) / imgProps.width;
 
       let heightLeft = imgHeight;
-      let position = 5; 
+      let position = 5;
       let pageNumber = 1;
       pdf.addImage(imgData, "PNG", 5, position, imgWidth, imgHeight);
       heightLeft -= pageHeight;
