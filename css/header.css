@@ -1,5 +1,5 @@
 .header {
-  flex: 0 0 64px;
+  flex: 0 0 128px; /* 64px * 2 */
   width: 100%;
   background-color: rgba(246, 247, 248, 1);
 }
@@ -8,18 +8,18 @@
   flex: 1 0 auto;
   display: flex;
   margin: auto;
-  gap: 32px;
-  width: 555px;
+  gap: 64px; /* 32px * 2 */
+  width: 1110px; /* 555px * 2 */
   height: 100%;
   color: #000000;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px; /* 20px * 2 */
   box-sizing: border-box;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   p {
-    font-size: 17px;
+    font-size: 34px; /* 17px * 2 */
     font-weight: 500;
   }
 }
@@ -27,8 +27,8 @@
 .hr-line {
   background-color: rgba(0, 16, 36, 0.1);
   margin: 0;
-  width: 824px;
-  height: 1px;
+  width: 1648px; /* 824px * 2 */
+  height: 2px; /* 1px * 2 */
   border-style: none;
   margin: 0 auto;
 }

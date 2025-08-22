@@ -1,4 +1,13 @@
 @media screen and (max-width: 480px) {
+  :root {
+    transform: scale(0.5);
+    transform-origin: top center;
+    width: 200%;
+    position: relative;
+    left: 50%;
+    margin-left: -100%;
+  }
+  
   html,
   body {
     width: 100%;
@@ -13,18 +22,20 @@
     justify-content: center;
     gap: 12px;
     margin: 10px auto 0;
-
     width: 100%;
     max-width: 100%;
+    box-sizing: border-box;
+    padding: 0;
   }
 
   .card.tools {
     width: 100%;
-    max-width: 80%;
+    max-width: 100%;
     min-width: unset;
     height: auto;
     min-height: 170px;
-    margin: 0 10px;
+    margin: 0;
+    box-sizing: border-box;
   }
 
   .tools-list {
@@ -33,44 +44,59 @@
     justify-content: center;
     gap: 20px;
     width: 100%;
-    margin: 0 10px;
+    margin: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
   }
 
   .container {
     gap: 10px;
   }
+  
   .header,
   .logo-container {
     width: 100%;
     box-sizing: border-box;
     justify-content: space-between;
     gap: 0;
+    margin: 0;
+    padding: 0 10px;
   }
 
   .body {
     width: 100%;
-    padding: 0 15px;
+    padding: 0;
     box-sizing: border-box;
+    margin: 0;
   }
 
   .card.experience {
-    margin: 0 10px;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
   }
+  
   .card {
-    margin: 0 10px;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
   }
 
   .job {
     margin: 0;
     box-sizing: border-box;
     padding: 15px;
+    width: 100%;
   }
 }
 
 .ripple {
   position: relative;
   overflow: hidden;
-  transform: translate3d(0, 0, 0); /* Аппаратное ускорение */
+  transform: translate3d(0, 0, 0);
 }
 
 .ripple-effect {
