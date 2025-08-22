@@ -1,11 +1,11 @@
-@import "header.css";
-@import "language-card.css";
-@import "experience-card.css";
-@import "card-tools.css";
-@import "card-edu.css";
-@import "card-interests.css";
-@import "card-contact.css";
-@import "media.css";
+@import "./header.css";
+@import "./language-card.css";
+@import "./experience-card.css";
+@import "./card-tools.css";
+@import "./card-edu.css";
+@import "./card-interests.css";
+@import "./card-contact.css";
+@import "./media.css";
 
 :root {
   --main-green: #28d979;
