@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const element = document.getElementById("app");
       const originalPadding = element.style.paddingBottom;
       element.style.paddingBottom = "20px";
-
       const canvas = await html2canvas(element, {
         scale: isDesktop ? 4 : 2,
         useCORS: true,
@@ -32,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       const pageWidth = pdf.internal.pageSize.getWidth();
+      const pageHeight = pdf.internal.pageSize.getHeight();
       const imgProps = pdf.getImageProperties(imgData);
 
       const imgWidth = isDesktop ? pageWidth * 1 : pageWidth - 10;

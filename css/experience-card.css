@@ -1,58 +1,60 @@
 .card.experience {
-  max-width: 822px;
-  min-width: 248px;
-  width: 822px;
-  height: 718px;
+  max-width: 411px;
+  min-width: 124px;
+  width: 411px;
+  height: 359px;
 }
 .job-list {
   width: 100%;
-  height: 600px;
-  margin-top: 32px;
+  height: 300px;
+  margin-top: 16px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  gap: 20px;
+  gap: 10px;
 }
 h2 {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 8px;
   font-variant: normal;
-  line-height: 24px;
+  line-height: 12px;
 }
 .job {
   box-sizing: border-box;
   width: 100%;
-  height: 152px;
+  height: 76px;
   background-color: #ffffff;
-  border-radius: 20px;
-  padding: 16px;
+  border-radius: 10px;
+  padding: 8px;
   flex: 1 1 auto;
+
   overflow: hidden;
+
   h2 {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 8px;
     font-variant: normal;
-    line-height: 24px;
+    line-height: 12px;
   }
   &.last {
-    height: 152px;
+    height: 76px;
     background-color: var(--main-green);
     color: #ffffff;
     li::before {
       color: white;
     }
     .editing {
-      outline: 4px solid white;
-      border-radius: 16px;
+      outline: 2px solid white;
+      border-radius: 8px;
     }
   }
   &.second {
-    height: 216px;
+    height: 108px;
     color: #000000;
   }
   &.third {
-    height: 192px;
+    height: 96px;
     color: #000000;
   }
 }
@@ -64,23 +66,25 @@ h2 {
   justify-content: space-between;
 }
 .small-box {
-  width: 122px;
-  height: 32px;
+  width: 61px;
+  height: 16px;
+
   background-color: #7e731266;
   color: #ddf163;
   font-weight: 500;
-  font-size: 16px;
-  border-radius: 118px;
+  font-size: 8px;
+  border-radius: 59px;
   display: flex;
   align-items: center;
   justify-content: center;
+
   min-width: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   &.editing {
-    outline: 4px solid rgb(0, 255, 0);
-    border-radius: 16px;
+    outline: 2px solid rgb(0, 255, 0);
+    border-radius: 8px;
   }
 }
 
@@ -88,18 +92,19 @@ h2 {
   box-sizing: border-box;
   width: 100%;
   display: flex;
-  margin-top: 16px;
+  margin-top: 8px;
   justify-content: space-between;
   flex: 1 1 auto;
-  gap: 16px;
+  gap: 8px;
 }
 
 .job-info {
-  width: 248px;
-  height: 50px;
+  width: 124px;
+  height: 25px;
   h3 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 10px;
+
     min-width: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -107,7 +112,8 @@ h2 {
   }
   p {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 8px;
+
     min-width: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -116,12 +122,14 @@ h2 {
 }
 
 .featured-points {
-  width: 478px;
+  width: 239px;
   height: auto;
   li {
     font-weight: 400;
-    font-size: 16px;
-    max-height: 74px;
+    font-size: 8px;
+
+    max-height: 37px;
+
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;

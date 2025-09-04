@@ -1,27 +1,30 @@
+
 .card.languages {
-  max-width: 534px; /* 267px * 2 */
-  min-width: 248px; /* 124px * 2 */
-  width: 534px; /* 267px * 2 */
-  height: 248px; /* 124px * 2 */
+  max-width: 267px;
+  min-width: 124px;
+  width: 267px;
+  height: 124px;
+
   overflow: hidden;
 }
 .list-languages {
   box-sizing: border-box;
   display: flex;
-  gap: 20px; /* 10px * 2 */
+  gap: 10px;
   flex-direction: row;
-  width: 486px; /* 243px * 2 */
-  margin-top: 40px; /* 20px * 2 */
+  width: 243px;
+  margin-top: 20px;
 }
 .name-languages {
   box-sizing: border-box;
   display: flex;
-  gap: 12px; /* 6px * 2 */
+  gap: 6px;
   flex-direction: column;
   p {
     font-weight: 500;
-    font-size: 20px; /* 10px * 2 */
-    max-width: 116px; /* 58px * 2 */
+    font-size: 10px;
+    max-width: 58px;
+
     min-width: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -33,15 +36,15 @@
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  gap: 20px; /* 10px * 2 */
+  gap: 10px;
 }
 
 .progress-bar {
   flex: 0 1 auto;
   width: 100%;
-  height: 22px; /* 11px * 2 */
+  height: 11px;
   background-color: var(--main-green);
-  border-radius: 6px; /* 3px * 2 */
+  border-radius: 3px;
   &.hindi {
     width: 70%;
   }

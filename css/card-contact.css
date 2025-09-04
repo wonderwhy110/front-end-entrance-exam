@@ -1,11 +1,11 @@
 .card.contact {
-  width: 534px;
-  height: 184px;
+  width: 267px;
+  height: 92px;
   background-color: black;
   color: rgb(255, 255, 255);
   h1 {
-    height: 74px;
-    margin-bottom: 10px;
+    height: 37px;
+    margin-bottom: 5px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -14,9 +14,10 @@
     white-space: normal;
   }
   p {
-    margin-top: 22px;
+    margin-top: 11px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
+
     min-width: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -28,7 +29,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  width: 534px;
-  height: 578px;
-  gap: 40px;
+  width: 267px;
+  height: 289px;
+  gap: 20px;
 }

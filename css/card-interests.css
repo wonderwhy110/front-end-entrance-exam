@@ -1,17 +1,18 @@
 .card.interests {
-  width: 534px;
-  max-width: 534px;
-  height: 354px;
+  width: 267px;
+  max-width: 267px;
+  height: 177px;
 }
 
 .content-interests {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  width: 486px;
-  height: 232px;
-  margin-top: 32px;
-  gap: 16px;
+  width: 243px;
+  height: 116px;
+  margin-top: 16px;
+
+  gap: 8px;
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: flex-start;
@@ -21,12 +22,13 @@
   align-items: center; 
   background-color: rgb(255, 255, 255);
   color: black;
-  height: 46px;
-  font-size: 20px;
+  height: 23px;
+  font-size: 10px;
   font-weight: 400;
-  padding: 0 20px;
-  max-width: 260px;
+  padding: 0 10px;
+  max-width: 130px;
   min-width: 0; 
+
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -38,32 +40,32 @@
   cursor: text;
 }
 #interest1 {
-  width: 102px;
+  width: 46px;
 }
 #interest2 {
-  width: 77.6px;
+  width: 33.8px;
 }
 #interest3 {
-  width: 141.2px;
+  width: 65.6px;
 }
 #interest4 {
-  width: 211px;
+  width: 100.5px;
 }
 #interest5 {
-  width: 114px;
+  width: 52px;
 }
 #interest6 {
-  width: 127px;
+  width: 58.5px;
 }
 #interest7 {
-  width: 164px;
+  width: 77px;
 }
 #interest8 {
-  width: 102px;
+  width: 36px;
 }
 #interest9 {
-  width: 106px;
+  width: 48px;
 }
 #interest10 {
-  width: 81px;
+  width: 35.5px;
 }
