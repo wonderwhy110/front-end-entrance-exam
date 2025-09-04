@@ -115,3 +115,21 @@
     opacity: 0;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  body #app {
+    transform: scale(2);
+    transform-origin: top;
+    width: 50%;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: auto;
+  }
+  body .logo-container {
+    transform: scale(1.3);
+  }
+}
