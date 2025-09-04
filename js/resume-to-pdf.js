@@ -5,15 +5,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // Останавливаем всплытие события
     e.stopPropagation();
     e.preventDefault();
-    
+
     if (this.disabled) return;
-    
+
     try {
       downloadBtn.disabled = true;
       const element = document.getElementById("app");
       const originalPadding = element.style.paddingBottom;
       element.style.paddingBottom = "20px";
-      
+
       const canvas = await html2canvas(element, {
         scale: 2,
         useCORS: true,
@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       pdf.addImage(imgData, "PNG", 5, 5, imgWidth, imgHeight);
       pdf.save("моё_резюме.pdf");
-      
     } catch (error) {
       console.error("Ошибка при создании PDF:", error);
       alert("Произошла ошибка при создании PDF. Пожалуйста, попробуйте позже.");
